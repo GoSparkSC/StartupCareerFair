@@ -1,0 +1,27 @@
+body {
+	font-family: sans-serif;
+	background: url(../img/background.jpg) no-repeat center center fixed; 
+	background-size: cover;
+	background-blend-mode: multiply;
+	background-color: gray;
+}
+.logo {
+	width: 400px;
+	margin: 0 auto;
+	display: block;
+}
+.description {
+	width: 400px;
+	margin: 0 auto;
+	display: block;
+	font-size: 24px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: white;
+}
+.featuring {
+	color: white;
+}
+.featuring>.companies>img {
+	height: 48px;
+}
