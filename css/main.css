@@ -8,7 +8,7 @@ html, body {
 }
 .highlight {
 	font-weight: 600;
-	color: #3CBFB0;
+	color: #FDBD10;
 }
 /* Nav */
 /* ----------------------------------------------------- */
@@ -66,89 +66,79 @@ html, body {
 	margin-bottom: 20px;
 	font-size: 2rem;
 	color: #CCC;
+	transition: 0.2s ease;
 }
 .chevron>i:hover {
-	color: #3CBFB0;
+	color: #FDBD10;
+	text-shadow: 0 0 2px #FDBD10;
+	cursor: pointer;
+	transition: 0.2s ease;
 }
 /* About */
 /* ----------------------------------------------------- */
 .about {
-	padding-top: 50px;
+	padding: 100px 0 100px 0;
+	background-color: #FDBD10;
+	color: white;
 }
 .about>h2 {
+	margin-bottom: 40px;
 	font-size: 2rem;
-	font-weight: 600;
+	font-weight: 400;
 	text-align: center;
 	text-transform: uppercase;
+	letter-spacing: 0.55rem;
 }
 .about>p {
-	padding: 15px 10%;
+	padding: 0 10%;
+	font-size: 1rem;
+	font-weight: 400;
+	text-align: center;
+	line-height: 2rem;
+	letter-spacing: 0.1rem;
 }
-.about>img {
-	height: 40px;
-}
-/* Companies */
+/* Logos */
 /* ----------------------------------------------------- */
 .logos {
-	padding: 20px;
+	padding: 100px 0 100px 0;
+}
+.logos>h2 {
+	margin-bottom: 40px;
+	font-size: 2rem;
+	font-weight: 400;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 0.55rem;
+}
+.hosts, .companies {
+	padding: 0 10% 40px 10%;
 	text-align: center;
 }
-.logos>img, .logos>.andmore {
+.hosts>img {
 	height: 48px;
 	margin: 0 20px 20px 20px;
 	display: inline-block;
 	vertical-align: middle;
 }
-.logos>.whisper {
-	margin-top: 10px;
-}
-.logos>.omaze {
-	height: 68px;
-}
-.logos>.curbstand {
+.hosts>.techla {
 	height: 28px;
 }
-
-
-
-/*
-.hosts>.sparksc {
-	height: 48px;
-}
-.hosts>.techla {
-	height: 32px;
-}
-.description {
-	width: 400px;
-	margin: 0 auto;
-	font-size: 24px;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	color: white;
-}
-.featuring {
-	margin: 0 auto;
-	position: absolute;
-	bottom: 0;
-	color: white;
-	background: rgba(60, 191, 176, 0.46);
-}
-.companies {
-	padding: 20px;
-	text-align: center;
-}
 .companies>img, .companies>.andmore {
-	height: 48px;
-	margin: 0 20px 20px 20px;
+	height: 64px;
+	margin: 0 20px 40px 20px;
 	display: inline-block;
 	vertical-align: middle;
 }
 .companies>.whisper {
-	margin-top: 10px;
+	margin-top: 28px;
+}
+.companies>.rubiconproject {
+	margin-top: 22px;
+}
+.companies>.curbstand {
+	margin-top: 28px;
+	height: 32px;
 }
 .companies>.omaze {
 	height: 68px;
 }
-.companies>.curbstand {
-	height: 28px;
-}*/
