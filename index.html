@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Startup Career Fair</title>
+		<title>Startup Career Fair | Hosted by Spark SC and TechLA</title>
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="css/reset.css">
@@ -10,20 +10,17 @@
 	</head>
 	<body>
 		<nav class="nav">
-			<ul>
-				<li>About</li>
-				<li>Companies</li>
-			</ul>
+			<!-- TODO -->
 		</nav>
 		<section class="splash">
 			<div class="spacer half"></div>
 			<h1 style="display: none">Startup Career Fair</h1>
 			<img src="img/logo.png" alt="Startup Career Fair" class="logo">
-			<div class="description"><span class="startups"><i class="fa fa-power-off"></i> in Los Angeles.</span><span class="info"><span class="highlight">February 19, 2015</span>, E-Quad @ USC.</span></div>
+			<div class="description"><span class="startups"><i class="fa fa-power-off"></i> in Los Angeles.</span><span class="info"><span class="highlight">February 19, 2015</span>, E-Quad @ USC.</span><span class="time">10:00<span class="sub">am</span> &middot; 3:00<span class="sub">pm</span></span></div>
+			<div class="chevron"><i class="fa fa-chevron-circle-down"></i></div>
 		</section>
 		<section class="about">
 			<h2>About</h2>
-			<p>DATE, TIME, LOCATION</p>
 			<p>Organized by Spark SC and TechLA, the Startup Career Fair aims to introduce and connect the best and brightest of the USC student community to some of the forefront rising startups in the Los Angeles area.</p>
 			<p>All attending companies will have a table manned by recruitment representatives. Students will be able to have intimate, informative discussions with company reps, and are encouraged to ask questions regarding the unique work environment and future plans of each startup.</p>
 			<p>Whether or not you have considered employment in the vibrant startup scene of Los Angeles, we encourage you to take advantage of this unique, first-time recruitment opportunity and come check us out! These companies are a window into the future of software and business, and seek your talent and energy. We hope to see you there!</p>
@@ -68,5 +65,10 @@
 			</div>
 		</div>
 -->
+	<script src="js/jquery-1.10.1.min.js"></script>
+	<script src="js/parallax.min.js"></script>
+	<script>
+		$('.splash').parallax({imageSrc: '/img/background.jpg'});
+	</script>
 	</body>
 </html>

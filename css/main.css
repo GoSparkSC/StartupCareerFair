@@ -16,32 +16,18 @@ html, body {
 	position: fixed;
 	top: 0; right: 0;
 	text-align: right;
-	color: white;
-}
-.nav>ul {
-	font-size: 1rem;
-	text-transform: uppercase;
-	letter-spacing: .25rem;
-}
-.nav>ul>li {
-	margin: 15px 15px 0 0;
 }
 /* Splash */
 /* ----------------------------------------------------- */
 .splash {
 	height: 100%;
-	min-height: 480px;
-	background: url(../img/background.jpg);
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-blend-mode: multiply;
-	background-color: #2F2F2F;
+	min-height: 520px;
+	position: relative;
 	color: white;
 }
 .logo {
 	height: 280px;
-	margin: -218px auto 60px auto; /* 280px/2 (height) + 60px/2 (bottom margin) + 48px (line-height of description) */
+	margin: -260px auto 60px auto;
 	display: block;
 }
 .description {
@@ -49,7 +35,7 @@ html, body {
 	font-weight: 400;
 	text-align: center;
 	text-transform: uppercase;
-	line-height: 3rem;
+	line-height: 2.8rem;
 	letter-spacing: 0.65rem;
 }
 .description>.startups {
@@ -60,8 +46,47 @@ html, body {
 	font-size: 1rem;
 	letter-spacing: 0.55rem;
 }
+.description>.time {
+	display: block;
+	font-size: 0.8rem;
+	line-height: 2rem;
+	letter-spacing: 0.4rem;
+	color: #CCC;
+}
+.description>.time>.sub {
+	font-size: 0.6rem;
+}
+.chevron {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+}
+.chevron>i {
+	margin-bottom: 20px;
+	font-size: 2rem;
+	color: #CCC;
+}
+.chevron>i:hover {
+	color: #3CBFB0;
+}
 /* About */
 /* ----------------------------------------------------- */
+.about {
+	padding-top: 50px;
+}
+.about>h2 {
+	font-size: 2rem;
+	font-weight: 600;
+	text-align: center;
+	text-transform: uppercase;
+}
+.about>p {
+	padding: 15px 10%;
+}
+.about>img {
+	height: 40px;
+}
 /* Companies */
 /* ----------------------------------------------------- */
 .logos {
