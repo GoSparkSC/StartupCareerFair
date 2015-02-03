@@ -82,7 +82,7 @@ html, body {
 	color: white;
 }
 .about>h2 {
-	margin-bottom: 40px;
+	margin-bottom: 50px;
 	font-size: 2rem;
 	font-weight: 400;
 	text-align: center;
@@ -100,10 +100,10 @@ html, body {
 /* Logos */
 /* ----------------------------------------------------- */
 .logos {
-	padding: 100px 0 100px 0;
+	padding: 100px 0 20px 0;
 }
 .logos>h2 {
-	margin-bottom: 40px;
+	margin-bottom: 50px;
 	font-size: 2rem;
 	font-weight: 400;
 	text-align: center;
@@ -114,31 +114,53 @@ html, body {
 	padding: 0 10% 40px 10%;
 	text-align: center;
 }
-.hosts>img {
+.hosts img {
 	height: 48px;
 	margin: 0 20px 20px 20px;
 	display: inline-block;
 	vertical-align: middle;
 }
-.hosts>.techla {
+.hosts .techla {
 	height: 28px;
 }
-.companies>img, .companies>.andmore {
+.companies img, .companies .andmore {
 	height: 64px;
-	margin: 0 20px 40px 20px;
+	margin: 0 20px 30px 20px;
 	display: inline-block;
 	vertical-align: middle;
 }
-.companies>.whisper {
-	margin-top: 28px;
+.companies .tinder {
+	margin-top: -28px;
 }
-.companies>.rubiconproject {
+.companies .snapchat {
+	margin-top: 22px;
+	height: 74px;
+}
+.companies .dollarshaveclub {
 	margin-top: 22px;
 }
-.companies>.curbstand {
-	margin-top: 28px;
-	height: 32px;
+.companies .rubiconproject {
+	height: 72px;
 }
-.companies>.omaze {
+.companies .curb {
+	height: 44px;
+}
+.companies .soylent {
+	height: 54px;
+}
+.companies .curbstand {
+	height: 36px;
+}
+.companies .omaze {
 	height: 68px;
+}
+/* Footer */
+/* ----------------------------------------------------- */
+.footer {
+	padding: 0 5% 20px 5%;
+	font-size: .75rem;
+	text-align: center;
+	line-height: 1rem;
+	letter-spacing: .1rem;
+	color: #CCC;
 }
