@@ -17,9 +17,9 @@
 			<h1 style="display: none">Startup Career Fair</h1>
 			<img src="img/logo.png" alt="Startup Career Fair" class="logo">
 			<div class="description"><span class="startups"><i class="fa fa-power-off"></i> in Los Angeles.</span><span class="info"><span class="highlight">February 19, 2015</span>, E-Quad @ USC.</span><span class="time">10:00<span class="sub">am</span> &middot; 3:00<span class="sub">pm</span></span></div>
-			<div class="chevron"><i class="fa fa-chevron-circle-down"></i></div>
+			<div class="chevron"><i class="fa fa-chevron-circle-down" id="chevron"></i></div>
 		</section>
-		<section class="about">
+		<section class="about" id="about">
 			<h2>About</h2>
 			<p>The Startup Career Fair is hosted by Spark SC, the student-led entrepreneurship initiative at the University of Southern California. The Startup Career Fair connects top talent at USC with high-growth startups in the Greater Los Angeles Area. Students will have the opportunity to engage in informative discussion with recruiters, and learn more about the perks of working at a successful startup in LA.</p>
 		</section>
@@ -59,6 +59,18 @@
 		<script src="js/parallax.min.js"></script>
 		<script>
 			$('.splash').parallax({imageSrc: '/img/background.jpg'});
+			
+			function scrollTo(link, target) {
+      link.click(function(e) {
+        e.preventDefault();
+
+        $('html, body').animate({
+          scrollTop: target.offset().top - 0
+        }, 800);
+      });
+    }
+
+    scrollTo($('#chevron'), $('#about'));
 		</script>
 	</body>
 </html>
