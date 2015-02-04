@@ -125,22 +125,12 @@ html, body {
 }
 .companies img, .companies .andmore {
 	height: 64px;
-	margin: 0 20px 30px 20px;
+	margin: 0 20px 40px 20px;
 	display: inline-block;
 	vertical-align: middle;
 }
 .companies .tinder {
 	margin-top: -28px;
-}
-.companies .snapchat {
-	margin-top: 22px;
-	height: 74px;
-}
-.companies .dollarshaveclub {
-	margin-top: 22px;
-}
-.companies .rubiconproject {
-	height: 72px;
 }
 .companies .curb {
 	height: 44px;
@@ -152,7 +142,7 @@ html, body {
 	height: 36px;
 }
 .companies .omaze {
-	height: 68px;
+	height: 82px;
 }
 /* Footer */
 /* ----------------------------------------------------- */
