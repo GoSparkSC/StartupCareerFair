@@ -123,17 +123,24 @@ html, body {
 .companies .tinder {
 	margin-top: -28px;
 }
+.companies .tigertext {
+	height: 72px;
+}
+.companies .omaze {
+	height: 38px;
+}
 .companies .curb {
-	height: 44px;
+	height: 42px;
+}
+.companies .washio {
+	height: 54px;
+	margin-top: 10px;
 }
 .companies .soylent {
 	height: 54px;
 }
 .companies .curbstand {
 	height: 36px;
-}
-.companies .omaze {
-	height: 82px;
 }
 .hosts h2 {
 	margin-right: 10px;
