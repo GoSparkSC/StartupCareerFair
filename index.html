@@ -1,12 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="The Startup Career Fair is hosted by Spark SC, the student-led entrepreneurship initiative at the University of Southern California. The Startup Career Fair connects top talent at USC with high-growth startups in the Greater Los Angeles Area. Students will have the opportunity to engage in informative discussion with recruiters, and learn more about the perks of working at a successful startup in LA.">
+		<meta property="og:image"content="img/opengraph.jpg">
+		<link rel="icon" href="favicon.ico">
 		<title>Startup Career Fair | Hosted by Spark SC and TechLA</title>
+		
+		<!-- CSS -->
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/skeleton.css">
 		<link rel="stylesheet" href="css/main.css">
-		<link rel="icon" href="favicon.ico">
 	</head>
 	<body>
 		<nav class="nav">
@@ -57,12 +64,14 @@
 			<div>&copy; 2015 Spark SC, All Rights Reserved. Spark SC is a student organization at the University of Southern California.</div>
 		</footer>
 		
-		<script src="js/jquery-1.10.1.min.js"></script>
-		<script src="js/parallax.min.js"></script>
+		<!-- JS -->
+		<script src="js/lib/jquery.min.js"></script>
+		<script src="js/lib/parallax.min.js"></script>
+		<script src="js/main.js"></script>
 		<script>
-			$('.splash').parallax({imageSrc: '/img/background.jpg'});
+		$('.splash').parallax({imageSrc: '/img/background.jpg'});
 			
-			function scrollTo(link, target) {
+		function scrollTo(link, target) {
       link.click(function(e) {
         e.preventDefault();
 
