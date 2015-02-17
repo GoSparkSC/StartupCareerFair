@@ -1,27 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="The Startup Career Fair is hosted by Spark SC, the student-led entrepreneurship initiative at the University of Southern California. The Startup Career Fair connects top talent at USC with high-growth startups in the Greater Los Angeles Area. Students will have the opportunity to engage in informative discussion with recruiters, and learn more about the perks of working at a successful startup in LA.">
+		<meta property="og:image"content="img/opengraph.jpg">
+		<link rel="icon" href="favicon.ico">
 		<title>Startup Career Fair | Hosted by Spark SC and TechLA</title>
+		
+		<!-- CSS -->
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/skeleton.css">
 		<link rel="stylesheet" href="css/main.css">
-		<link rel="icon" href="favicon.ico">
 	</head>
 	<body>
-		<nav class="nav">
-			<!-- TODO -->
-		</nav>
 		<section class="splash">
 			<div class="spacer half"></div>
 			<h1 style="display: none">Startup Career Fair</h1>
 			<img src="img/logo.png" alt="Startup Career Fair" class="logo">
-			<div class="description"><span class="startups"><i class="fa fa-power-off"></i> in Los Angeles.</span><span class="info"><span class="highlight">February 19, 2015</span>, E-Quad @ USC.</span><span class="time">10:00<span class="sub">am</span> &middot; 3:00<span class="sub">pm</span></span></div>
+			<div class="description"><span class="startups">Small companies, big opportunities.</span><span class="info"><span class="highlight">February 19, 2015</span>, E-Quad @ USC.</span><span class="time">10:00<span class="sub">am</span> &middot; 3:00<span class="sub">pm</span></span></div>
 			<div class="chevron"><i class="fa fa-chevron-circle-down" id="chevron"></i></div>
 		</section>
 		<section class="about" id="about">
 			<h2>About</h2>
-			<p>The Startup Career Fair is hosted by Spark SC, the student-led entrepreneurship initiative at the University of Southern California. The Startup Career Fair connects top talent at USC with high-growth startups in the Greater Los Angeles Area. Students will have the opportunity to engage in informative discussion with recruiters, and learn more about the perks of working at a successful startup in LA.</p>
+			<p>The Startup Career Fair is hosted by Spark SC, the student-led entrepreneurship initiative at the University of Southern California. The Startup Career Fair connects top talent across the city with the best opportunities at high-growth startups in Los Angeles. Students will have the opportunity to engage in informative discussion with recruiters, apply for both full-time and internship positions, and learn more about the perks of working at a startup. The event is free for all college or university students. See you there!</p>
+			<a href="https://www.facebook.com/events/1569786809931286/" class="rsvp">RSVP Here</a>
 		</section>
 		<section class="logos">
 			<h2>Companies</h2>
@@ -43,13 +48,19 @@
 				<a href="http://www.zefr.com/" target="_blank"><img src="img/companies/zefr.png" alt="Zefr" class="zefr"></a>
 				<a href="http://www.brand-knew.com/" target="_blank"><img src="img/companies/brandknew.png" alt="Brand Knew" class="brandknew"></a>
 				<a href="http://www.crosscamp.us/" target="_blank"><img src="img/companies/crosscampus.png" alt="Cross Campus" class="crosscampus"></a>
-				<a href="https://gem.co/" target="_blank"><img src="img/companies/gem.png" alt="Gem" class="gem"></a>
 				<a href="http://mykaarma.com/" target="_blank"><img src="img/companies/kaarma.png" alt="Kaarma" class="kaarma"></a>
+				<a href="https://gem.co/" target="_blank"><img src="img/companies/gem.png" alt="Gem" class="gem"></a>
+				<a href="http://www.dailylook.com/" target="_blank"><img src="img/companies/dailylook.png" alt="Daily Look" class="dailylook"></a>
+			</div>
+			<h2>Partners</h2>
+			<div class="companies">
+				<a href="http://www.lamayor.org/" target="_blank"><img src="img/companies/mayorsoffice.png" alt="LA Mayor's Office" class="mayorsoffice"></a>
+				<a href="http://www.blackstone.com/citizenship/the-blackstone-charitable-foundation/entrepreneurship-initiative" target="_blank"><img src="img/companies/blp.png" alt="Blackstone LaunchPad" class="blp"></a>
 			</div>
 			<div class="hosts">
 				<h2>Hosted By:</h2>
-				<a href="http://sparksc.org" target="_blank"><img src="img/hosts/sparksc.png" alt="Spark SC" class="sparksc"></a>
-				<a href="http://techla.internships.com" target="_blank"><img src="img/hosts/techla.png" alt="TechLA" class="techla"></a>
+				<a href="http://sparksc.org/" target="_blank"><img src="img/hosts/sparksc.png" alt="Spark SC" class="sparksc"></a>
+				<a href="http://techla.internships.com/" target="_blank"><img src="img/hosts/techla.png" alt="TechLA" class="techla"></a>
 			</div>
 		</section>
 		
@@ -57,22 +68,9 @@
 			<div>&copy; 2015 Spark SC, All Rights Reserved. Spark SC is a student organization at the University of Southern California.</div>
 		</footer>
 		
-		<script src="js/jquery-1.10.1.min.js"></script>
-		<script src="js/parallax.min.js"></script>
-		<script>
-			$('.splash').parallax({imageSrc: '/img/background.jpg'});
-			
-			function scrollTo(link, target) {
-      link.click(function(e) {
-        e.preventDefault();
-
-        $('html, body').animate({
-          scrollTop: target.offset().top - 0
-        }, 800);
-      });
-    }
-
-    scrollTo($('#chevron'), $('#about'));
-		</script>
+		<!-- JS -->
+		<script src="js/lib/jquery.min.js"></script>
+		<script src="js/lib/parallax.min.js"></script>
+		<script src="js/main.js"></script>
 	</body>
 </html>

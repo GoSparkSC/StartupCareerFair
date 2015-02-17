@@ -1,6 +1,5 @@
 html, body {
 	height: 100%;
-	min-width: 640px;
 	font-family: 'Open Sans', Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 .spacer.half {
@@ -9,13 +8,6 @@ html, body {
 .highlight {
 	font-weight: 600;
 	color: #FDBD10;
-}
-/* Nav */
-/* ----------------------------------------------------- */
-.nav {
-	position: fixed;
-	top: 0; right: 0;
-	text-align: right;
 }
 /* Splash */
 /* ----------------------------------------------------- */
@@ -27,34 +19,34 @@ html, body {
 }
 .logo {
 	height: 280px;
-	margin: -260px auto 60px auto;
+	margin: -240px auto 60px auto;
 	display: block;
 }
 .description {
-	font-size: 2rem;
-	font-weight: 400;
+	font-size: 2.4rem;
+	font-weight: 600;
 	text-align: center;
 	text-transform: uppercase;
-	line-height: 2.8rem;
-	letter-spacing: 0.65rem;
+	line-height: 4rem;
+	letter-spacing: 0.5rem;
+	text-shadow: 1px 1px 4px #777;
 }
 .description>.startups {
 	display: block;
 }
 .description>.info {
 	display: block;
-	font-size: 1rem;
+	font-size: 2rem;
 	letter-spacing: 0.55rem;
 }
 .description>.time {
 	display: block;
-	font-size: 0.8rem;
-	line-height: 2rem;
+	font-size: 1.5rem;
+	line-height: 3rem;
 	letter-spacing: 0.4rem;
-	color: #CCC;
 }
 .description>.time>.sub {
-	font-size: 0.6rem;
+	font-size: 1.2rem;
 }
 .chevron {
 	width: 100%;
@@ -65,7 +57,6 @@ html, body {
 .chevron>i {
 	margin-bottom: 20px;
 	font-size: 2rem;
-	color: #CCC;
 	transition: 0.2s ease;
 }
 .chevron>i:hover {
@@ -77,13 +68,14 @@ html, body {
 /* About */
 /* ----------------------------------------------------- */
 .about {
-	padding: 100px 0 100px 0;
+	padding: 100px 0 80px 0;
 	background-color: #FDBD10;
 	color: white;
+	text-align: center;
 }
 .about>h2 {
 	margin-bottom: 50px;
-	font-size: 2rem;
+	font-size: 3.6rem;
 	font-weight: 400;
 	text-align: center;
 	text-transform: uppercase;
@@ -91,11 +83,22 @@ html, body {
 }
 .about>p {
 	padding: 0 10%;
-	font-size: 1rem;
+	font-size: 1.6rem;
 	font-weight: 400;
 	text-align: center;
-	line-height: 2rem;
+	line-height: 3rem;
 	letter-spacing: 0.1rem;
+}
+.about .rsvp {
+	margin: 20px auto 0 auto;
+	padding: 10px 20px;
+	display: inline-block;
+	font-size: 2.2rem;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: .2rem;
+	border: 1px solid white;
+	color: white;
 }
 /* Logos */
 /* ----------------------------------------------------- */
@@ -148,12 +151,21 @@ html, body {
 .companies .kaarma {
 	height: 42px;
 }
-
+.companies .dailylook {
+	height: 40px;
+}
+.companies .mayorsoffice {
+	height: 78px;
+}
+.companies .blp {
+	height: 42px;
+}
 .hosts h2 {
 	margin-right: 10px;
 	display: inline-block;
 	font-size: 1.4rem;
 	font-weight: 600;
+	letter-spacing: .6rem;
 	text-transform: uppercase;
 	vertical-align: top;
 }
