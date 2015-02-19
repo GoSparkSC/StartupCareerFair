@@ -157,6 +157,19 @@ html, body {
 .companies .lootsie {
 	height: 62px;
 }
+
+.companies .victorious {
+	height: 80px;
+}
+
+.companies .codewars {
+	height: 40px;
+}
+
+.companies .workpop {
+	height: 50px;
+}
+
 .companies .mayorsoffice {
 	height: 78px;
 }
