@@ -176,6 +176,11 @@ html, body {
 .companies .blp {
 	height: 42px;
 }
+
+.companies .greif {
+	height: 46px;
+}
+
 .hosts h2 {
 	margin-right: 10px;
 	display: inline-block;
