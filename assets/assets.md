@@ -1,1 +1,0 @@
-Assets for the Startup Career Fair website.
