@@ -148,14 +148,14 @@ html, body {
 	opacity: 0.65; 
 	cursor: not-allowed;
 }
-/*
+
 .about .rsvp:hover{
 	background-color:white;
 	color: #61C1A0;
 	-webkit-transition: all 0.3s;
        -moz-transition: all 0.3s;
             transition: all 0.3s;
-}*/
+}
 /* Logos */
 /* ----------------------------------------------------- */
 .logos {
@@ -185,6 +185,25 @@ html, body {
 }
 .companies .tinder {
 	margin-top: -28px;
+}
+
+.companies .solvegrowth {
+	margin-top: -28px;
+	height:40px;
+	background-color: #800f7e;
+	padding: 10px;
+}
+
+.companies .startuptap {
+	margin-top: -28px;
+	height:40px;
+	background-color: #3b3a36;
+	padding: 10px;
+}
+
+.companies .clutter {
+	margin-top: -30px;
+	height:40px;
 }
 .companies .Docket {
 	margin-top: -20px;
