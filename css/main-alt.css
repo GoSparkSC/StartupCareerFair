@@ -103,7 +103,7 @@ html, body {
 .chevron>i:hover {
 	/*color: #FDBD10;*/
 	color: #61C1A0;
-	text-shadow: 0 0 2px #FDBD10;
+	text-shadow: 0 0 2px #fff;
 	cursor: pointer;
 	transition: 0.2s ease;
 }
@@ -111,10 +111,14 @@ html, body {
 /* ----------------------------------------------------- */
 .about {
 	padding: 100px 0 80px 0;
-	background-color: #61C1A0;
 	color: white;
 	text-align: center;
 }
+
+#about{
+    background-color: #61C1A0;
+}
+
 .about>h2 {
 	margin-bottom: 50px;
 	font-size: 3.6rem;
@@ -156,6 +160,16 @@ html, body {
        -moz-transition: all 0.3s;
             transition: all 0.3s;
 }
+
+#media{
+	position: relative;
+	color: white;
+	background: linear-gradient(
+      rgba(96, 195, 178, 0.75), 
+      rgba(96, 195, 178, 0.55)
+    ), url(../img/lawn.jpg);
+
+}
 /* Logos */
 /* ----------------------------------------------------- */
 .logos {
@@ -169,146 +183,36 @@ html, body {
 	text-transform: uppercase;
 	letter-spacing: 0.55rem;
 }
-.companies, .hosts {
-	padding: 0 10% 40px 10%;
-	text-align: center;
-}
-.companies img, .companies .andmore {
-	height: 64px;
-	margin: 0 20px 40px 20px;
-	display: inline-block;
-	vertical-align: middle;
-}
-.companies .snapchat {
-	margin-top: -28px;
-	height:80px;
-}
-.companies .tinder {
-	margin-top: -28px;
+
+.companies, .hosts{
+    display: flex;
+    -webkit-display: flex;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    justify-content: center;
+    -webkit-justify-content: center;
+    padding: 0 10% 40px 10%;
+    
 }
 
+.companies img{
+    height: 35px;
+    margin: 20px;
+    padding: 10px;
+}
+
+
 .companies .solvegrowth {
-	margin-top: -28px;
-	height:40px;
 	background-color: #800f7e;
-	padding: 10px;
 }
 
 .companies .reefer {
-	margin-top: -28px;
-	height:40px;
 	background-color: #25282b;
-	padding: 10px;
 }
 
 .companies .startuptap {
-	margin-top: -28px;
-	height:40px;
 	background-color: #3b3a36;
-	padding: 10px;
 }
-
-.companies .hyrecar {
-	margin-top: -20px;
-	height:40px;
-}
-
-.companies .medzango {
-	margin-top: -20px;
-	height:50px;
-}
-.companies .bee {
-	margin-top: -20px;
-	height:60px;
-}
-
-.companies .mira {
-	margin-top: -30px;
-	height:60px;
-}
-
-.companies .clutter {
-	margin-top: -30px;
-	height:40px;
-}
-.companies .Docket {
-	margin-top: -20px;
-	height:80px;
-}
-.companies .daqri {
-	margin-top: -28px;
-	height: 38px;
-}
-.companies .styku {
-	margin-top: -15px;
-}
-.companies .tigertext {
-	height: 72px;
-}
-.companies .omaze {
-	height: 38px;
-}
-.companies .soothe {
-	height: 80px;
-}
-.companies .curb {
-	height: 42px;
-}
-.companies .washio {
-	height: 54px;
-	margin-top: 10px;
-}
-.companies .soylent {
-	height: 54px;
-}
-.companies .curbstand {
-	height: 36px;
-}
-.companies .gem {
-	height: 70px;
-}
-.companies .kaarma {
-	height: 42px;
-}
-.companies .dailylook {
-	height: 40px;
-}
-.companies .lootsie {
-	height: 62px;
-}
-
-.companies .victorious {
-	height: 80px;
-}
-
-.companies .codewars {
-	height: 40px;
-}
-
-.companies .workpop {
-	height: 50px;
-}
-
-.companies .mayorsoffice {
-	height: 78px;
-}
-.companies .blp {
-	height: 42px;
-}
-
-.companies .greif {
-	height: 46px;
-}
-
-.companies .showgo {
-	height: 50px;
-}
-
-.companies .flex {
-    margin-top: -30px;
-	height: 90px;
-}
-
 .hosts h2 {
 	margin-right: 10px;
 	display: inline-block;
