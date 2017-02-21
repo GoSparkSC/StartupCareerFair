@@ -214,10 +214,12 @@ html, body {
 }
 
 .companies .medium{
+    margin-top: -10px;
     height: 55px;
 }
 
 .companies .large{
+    margin-top: -20px;
     height: 85px;
 }
 
