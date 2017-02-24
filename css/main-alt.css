@@ -213,6 +213,12 @@ html, body {
     padding: 10px;
 }
 
+
+.companies .small{
+    margin-top: -5px;
+    height: 40px;
+}
+
 .companies .medium{
     margin-top: -10px;
     height: 55px;
