@@ -213,6 +213,13 @@ html, body {
     padding: 10px;
 }
 
+.companies .smaller{
+    height: 25px;
+    margin: 20px;
+    margin-top: -5px;
+    padding: 10px;
+}
+
 
 .companies .small{
     margin-top: -5px;
